@@ -14,4 +14,4 @@ warn("PR is classed as Work in Progress") if pr_title.include? "[WIP]"
 # Warn when there is a big PR
 warn("Big PR") if lines_of_code > 500
 
-fail("Unsafe access to NSDictionary") if dictionary_safe_access
+dictionary_safe_access
