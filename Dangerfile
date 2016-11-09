@@ -15,3 +15,5 @@ warn("PR is classed as Work in Progress") if pr_title.include? "[WIP]"
 warn("Big PR") if lines_of_code > 500
 
 dictionary_safe_access
+
+warn("Test warning", file: "Sources/OtherTestClass.m", line: 8)
